@@ -10,7 +10,7 @@ function varargout = shp_GUI(varargin)
 %      function named CALLBACK in SHP_GUI.M with the given input arguments.
 %
 %      SHP_GUI('Property','Value',...) creates a new SHP_GUI or raises the
-%      existing singleton*.  Starting from the left, property value pairs are
+%      existing singleton*.  Starting from the left, property value pairs an  re
 %      applied to the GUI before shp_GUI_OpeningFcn gets called.  An
 %      unrecognized property name or invalid value makes property application
 %      stop.  All inputs are passed to shp_GUI_OpeningFcn via varargin.
@@ -81,7 +81,7 @@ function edit_Fs_Callback(hObject, eventdata, handles)
 
 % Hints: get(hObject,'String') returns contents of edit_Fs as text
 %        str2double(get(hObject,'String')) returns contents of edit_Fs as a double
-
+  
 
 % --- Executes during object creation, after setting all properties.
 function edit_Fs_CreateFcn(hObject, eventdata, handles)
