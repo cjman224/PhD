@@ -1,0 +1,6 @@
+Tmp 폴더를 복사한뒤
+폴더 열고 AL_Gen_ConfigFile.exe 실행 해서 이름 입력후 엔터
+
+그 뒤에 Shaker Main Experiment_ s.exe 파일 실행하면 됨.
+
+Dialog박스에 edit창 건드릴 필요 없이 OK만 누르면 됨.

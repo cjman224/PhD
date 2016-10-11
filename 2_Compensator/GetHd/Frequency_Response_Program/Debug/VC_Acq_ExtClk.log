@@ -1,0 +1,33 @@
+﻿빌드 시작: 2015-11-04 오전 1:42:35
+     1>2 노드의 "F:\Works\Research\2015\4D 자동저작\151023 Bad Gunshot Analysis\Crowson Frequency Response and Test\Frequency_Response_Program\VC_Acq_ExtClk.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 ".\Debug\VC_Acq_ExtClk.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\..\..\..\..\DAQmx ANSI C Dev\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt "Acq-ExtClk.cpp"
+         Acq-ExtClk.cpp
+     1>f:\works\research\2015\4d 자동저작\151023 bad gunshot analysis\crowson frequency response and test\frequency_response_program\acq-extclk.cpp(75): warning C4244: '인수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>f:\works\research\2015\4d 자동저작\151023 bad gunshot analysis\crowson frequency response and test\frequency_response_program\acq-extclk.cpp(90): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>f:\works\research\2015\4d 자동저작\151023 bad gunshot analysis\crowson frequency response and test\frequency_response_program\acq-extclk.cpp(91): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/VC_Acq_ExtClk.exe" /INCREMENTAL /NOLOGO /LIBPATH:"..\..\..\..\..\DAQmx ANSI C Dev\lib\msvc" odbc32.lib odbccp32.lib nidaqmx.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\VC_Acq_ExtClk.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/VC_Acq_ExtClk.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\VC_Acq_ExtClk.lib" /MACHINE:X86 .\Debug\VC_Acq_ExtClk.exe.embed.manifest.res
+         ".\Debug/Acq-ExtClk.obj"
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\VC_Acq_ExtClk.exe.embed.manifest" /manifest .\Debug\VC_Acq_ExtClk.exe.intermediate.manifest
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         VC_Acq_ExtClk.vcxproj -> F:\Works\Research\2015\4D 자동저작\151023 Bad Gunshot Analysis\Crowson Frequency Response and Test\Frequency_Response_Program\.\Debug\VC_Acq_ExtClk.exe
+       BscMake:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug/VC_Acq_ExtClk.bsc" ".\Debug\Acq-ExtClk.sbr"
+       FinalizeBuildStatus:
+         ".\Debug\VC_Acq_ExtClk.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         ".\Debug\VC_Acq_ExtClk.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"F:\Works\Research\2015\4D 자동저작\151023 Bad Gunshot Analysis\Crowson Frequency Response and Test\Frequency_Response_Program\VC_Acq_ExtClk.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:05.86

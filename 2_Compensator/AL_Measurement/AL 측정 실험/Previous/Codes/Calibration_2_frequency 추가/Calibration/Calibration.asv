@@ -1,0 +1,294 @@
+ca% To plot measurement data from the shaker system
+% This one plots raw data 
+% Fit sine wave parameters using least sqaure fit
+% Seungmoon Choi, 8/27/2002
+
+% This is the main file for calibration of shaker
+% It opens the data file to get the frequency and amplitdue values of data 
+% collected. It then approximate the amplitude and frequeny of the output
+% displacement by least square function matching. It is modified by Israr
+% to calculate the Force and position amplitude from FFT. It then generates
+% a data file and writes the data in to the file. It then calibrate the
+% Input-output relation of the Shaker System by estimating least square line
+% fit parameters. It the stores the slope, Calibration gain, in the
+% datafile.
+% Modified by Israr, 8/05/2005
+
+% Once the calibration code ran, use the file 'Plot_Calibration_Data.m'.
+
+
+%% CHECKS
+
+% 1. Select input data file
+% 2. Select datatype
+
+
+clear all
+close all
+clc
+datatype='';
+% datatype='Unloaded';
+% datatype='Old';
+%datatype='Loaded';
+
+% Define a variable to store data
+DataCollect=[];
+DataCollect2=[];
+freqset=[];
+
+%% Open file to get data information
+fid2 = fopen('InputCalibrationData.txt','r');
+
+if (fid2 == -1)
+    display('Error -- The Input Data File does not open');
+end
+
+while (fscanf(fid2,'%c',1)~='/')
+end
+
+while (1)
+       
+    [filecntr, filecount] = fscanf(fid2, '%f', 4);
+    
+    if ( filecount == 0)
+        display('The data file input ends. Please see the plots')
+        break;        
+    end
+    
+	F = filecntr(1);
+    A = filecntr(2);
+	UR = filecntr(3);
+	SD = filecntr(4);
+    time = 0:1/UR:SD-1/UR;
+    
+    % Checf for a new frequency
+    ii=find(freqset==F);
+    if length(ii)==0
+        freqset=[freqset F];
+    end
+   
+	% Open a data file
+    file_name = strcat(datatype,'DataFiles\Data',num2str(F),'Hz',num2str(A,'%.4f'),'V',num2str(UR),'Hz',num2str(SD,'%0.2f'),'sec.dat')
+	fid = fopen(file_name, 'r');
+    
+    if (fid==-1)
+        display('Error -- The Data File does not open');
+    end
+	
+	% Read sine wave parameters
+
+	count=UR*SD;
+	
+	% Read the generated sinewave parameters
+    
+    Signal_A = fscanf(fid, '%f', 1)';
+    Signal_F = fscanf(fid, '%f', 1)';
+    Signal_UR = fscanf(fid, '%f', 1)';
+    Signal_SD = fscanf(fid, '%f', 1)';
+	    	
+	% Read amp output (in volt)
+	amp_output = fscanf(fid, '%f', count)';
+	
+	% Read accelerometer output (in G)
+	acc_output = fscanf(fid, '%f', count)';
+	
+	% Read force sensor output (in N)
+% 	force_output_x = fscanf(fid, '%f', count)';
+% 	force_output_y = fscanf(fid, '%f', count)';
+% 	force_output_z = fscanf(fid, '%f', count)';
+% 	
+	fclose(fid);
+    
+%     figure
+%     subplot(2,2,1)
+%     plot(acc_output)
+%     subplot(2,2,2)
+%     plot(force_output_z)
+    
+    %% Calculating the FFT of signals
+    fft_amp=fftshift(abs(fft(amp_output)));
+    fft_acc=fftshift(abs(fft(acc_output)));
+%     fft_Fz=fftshift(abs(fft(force_output_z)));
+        
+    fftamp=(2/SD*fft_amp(length(fft_amp)/2+1:length(fft_amp))/UR);       
+    fftacc=(2/SD*fft_acc(length(fft_acc)/2+1:length(fft_acc))/UR);       
+%     fftFz=(2/SD*fft_Fz(length(fft_Fz)/2+1:length(fft_Fz))/UR);       
+    
+    
+    ff=0:UR/count:UR/2-UR/count;
+
+    freqindex=find(ff==F);
+
+    FF=ff(freqindex);
+    Amp_amp=fftamp(freqindex);
+    Amp_acc=fftacc(freqindex);
+%     Amp_Fz=fftFz(freqindex);
+	
+
+	% Compute displacement
+	% 1 G= 9.80665 m/s^2
+	displacement_amplitude = Amp_acc/(2*pi*FF)^2 * 9.80665 * 1000; % now in mm
+
+    displacement_frequency = FF;
+
+    % define a variable to store collected data for each run
+    % Input Frequency, Input Amplitude, Amplifier out Amplitude, Amplifier out frequency, 
+    %                Output Frequecy, Output displacement
+    
+    newDataCollect=[F A F Amp_amp ...
+        displacement_frequency displacement_amplitude ...
+        FF];
+    DataCollect=[DataCollect; newDataCollect];
+    
+    newDataCollect=[A F Amp_acc displacement_amplitude];
+    DataCollect2=[DataCollect2; newDataCollect];
+    
+    
+
+end
+
+fclose(fid2);
+
+DataCollect=abs(DataCollect);
+
+% Writing data in to the data file
+fid = fopen(strcat(datatype,'TestConditionData.txt'),'a');;
+
+if(fid == -1)
+    display('Error -- Data file does not open for data collected');
+else
+	
+	[m,n]=size(DataCollect2);
+	
+% 	fprintf(fid,'Input Frequency\tInput Amplitude\tAmp Frequency\tAmp Amplitude\tOutput Frequency\tOutput Amplitude mm\n');
+ 	fprintf(fid,'Volts\tHz\tG\tmm\n');
+	
+	for (i=1:m)
+        for (j=1:n)
+            fprintf(fid,'%3.9f\t',DataCollect2(i,j));
+        end
+        fprintf(fid,'\n');
+	end
+	
+	fclose(fid);
+end
+   
+
+slopedata=[];
+
+
+% Store data in to vectors.
+Input_Freq = DataCollect(:,1);
+Input_Amp = DataCollect(:,2);
+Amplifier_Freq = DataCollect(:,3);
+Amplifier_Amp = DataCollect(:,4);
+Output_Freq = DataCollect(:,5);
+Output_Amp_mm = DataCollect(:,6);
+% Force_z_Freq = DataCollect(:,7);
+% Force_z_Amp_N = DataCollect(:,8);
+
+%% Now plot the data
+
+
+% Frequency = [10];
+% Frequency = [2 5 8 10 20 30 40 60 100 150 200 300 400 500];
+Frequency = freqset;
+
+figcntr=0;
+
+for (i=1:length(Frequency))
+    freq_index=find(Input_Freq==Frequency(i));
+    
+    In_Amp=Input_Amp(freq_index); % Controlled input
+    Out_Amp_mm=Output_Amp_mm(freq_index); % position from accelerometer
+%     Force_z_N=Force_z_Amp_N(freq_index); % Force Sensor Data
+    %% Fitting a least square line fit
+    A = [In_Amp ones(length(In_Amp),1)];
+    B = Out_Amp_mm;
+    
+    x = inv(A'* A)* A'*B;
+    
+    m=x(1); c=x(2);
+    
+    slopedata=[slopedata; Frequency(i) m c];
+    
+    %if (mod(figcntr, 4) == 0)
+    %    figure
+    %    figcntr=0;
+    %end
+    
+    Out_Amp_mm_ref = m*In_Amp+c;
+    
+    %%%%%%%%%%subplot(2,2,figcntr+1)
+%     loglog(In_Amp, Out_Amp_mm, 'ro')
+    %%%%%%%%plot(In_Amp, Out_Amp_mm, 'ro')
+    %hold on
+%     loglog(In_Amp, Out_Amp_mm_ref, 'k-')
+    %%%%%%%%plot(In_Amp, Out_Amp_mm_ref, 'k-')
+%     loglog(In_Amp, Out_Amp_mm_ref, 'k*')    
+    %%%%%%plot(In_Amp, Out_Amp_mm_ref, 'ko')    
+    %hold off
+    %%%%%%%%%%title(['Calibration plot for ',num2str(Frequency(i)),' Hz signal'])
+    %text(min(In_Amp)+(max(In_Amp)-min(In_Amp))*0.2, min(Out_Amp_mm)+(max(Out_Amp_mm)-min(Out_Amp_mm))*0.8,['y value : ',num2str(Out_Amp_mm)]);
+    %text(min(In_Amp)+(max(In_Amp)-min(In_Amp))*0.2, min(Out_Amp_mm)+(max(Out_Amp_mm)-min(Out_Amp_mm))*0.8,['The slope is : ',num2str(m)]);
+    %text(min(In_Amp)+(max(In_Amp)-min(In_Amp))*0.2, min(Out_Amp_mm)+(max(Out_Amp_mm)-min(Out_Amp_mm))*0.7,['and y-intercept is : ',num2str(c)]);
+    %%%%%%%%xlabel('Input Amplitude - (Volts)')
+    %%%%%%%%%%ylabel('Output Amplitude - (mm)')
+    %%%%%%%%legend('Actual data','Estimated value','LS fit')
+    
+    %figcntr=figcntr+1;
+    
+    %% Calculating total error
+    
+    E = sqrt( sum( (Out_Amp_mm - Out_Amp_mm_ref).^2  )/ (length(Out_Amp_mm) - 1) );
+    
+    %text(min(In_Amp)+(max(In_Amp)-min(In_Amp))*0.2, min(Out_Amp_mm)+(max(Out_Amp_mm)-min(Out_Amp_mm))*0.9,['The standard error is : ',num2str(E),' mm']);
+    
+end
+% figure
+% hold on
+% plot(Input_Freq, Force_z_Amp_N, 'ko')
+% hold off
+% title(['Force vs Frequency plot'])
+% xlabel('Stimulus Frequency - (Hz)')
+% ylabel('Force Amplitude - (N)')
+
+
+
+
+
+%% Now storing slope values in the calibration file
+fid=fopen('shaker_calibration.shc','w');
+
+if (fid == -1)
+    display('Error! Slope values are not stored in the datafile')
+else
+    
+    fprintf(fid,'%s\n','[Calibration Data File for Shaker Experiment]');
+    
+    dateinfo = clock;
+    
+    str1 = datestr(dateinfo, 8); % Day e.g. Wed
+    str2 = datestr(dateinfo, 3); % Month e.g. Aug
+    str3 = datestr(dateinfo, 7); % Day e.g. Day
+    str4 = datestr(dateinfo, 13); % Time e.g. 20:13:29
+    str5 = datestr(dateinfo, 10); % year e.g. 2004
+    
+  
+    fprintf(fid,'Generated at %s %s %s %s %s\n\n', str1, str2, str3, str4, str5);
+    
+    fprintf(fid,'%s\n','[Number of Frequencies]');
+    fprintf(fid,'%s\n\n\n',num2str(length(slopedata)));
+    
+    fprintf(fid,'%s\n','[Calibration Data]');
+    fprintf(fid,'Frequency (Hz)\tSlope\tOffset');
+        
+    [m,n]=size(slopedata);
+    for (i=1:m)
+        fprintf(fid,'\n');
+        for (j=1:n)
+            fprintf(fid,'%f\t',slopedata(i,j));
+        end
+    end
+    fclose(fid);
+end

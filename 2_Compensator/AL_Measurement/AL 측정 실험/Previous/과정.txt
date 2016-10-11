@@ -1,0 +1,12 @@
+I/O Calibration을 우선 실행
+각 duration마다 원하는 displacement를 재생하기 위해 몇 V로 구동해야 하는지 알 필요가 있다.
+Calibration-> DT_Measurement 프로그램을 통해 data를 저장한 뒤 Calibration.m 을 실행하여 몇 V를 구동했을 때 몇 mm로 큰 shaker가 진동을 낼 수있는지를 알 수 있음.
+(DT_Measurement 프로그램에 window 적용된 것 확인했음. 10 ms window를 반 쪼개어 signal의 시작과 끝에 5 ms씩 씌워 smoothing 효과 적용)
+(DataFiles에 파일 봐서 signal확인했음 20 Hz, 33 Hz, 100 Hz, 200Hz, 300 Hz에 0.1V, 2V 마다 확인)
+(Calibration.m 파일은 조금 수정됨. duration이 짧아질수록 FFT resolution이 짧아지므로 10000 sample 미만에서는 1Hz단위로 resolution이 안나오기 시작함. 따라서 zero padding으로 10000 sample로 만들어서 FFT 돌리도록 수정했음)
+
+이 관계식은 shaker_calibration.shc 파일에 저장됨.
+Offset + Voltage*Slope = Displacement (mm) 이다.
+
+Duration 별 결과는 Calibration 폴더 안의 Results에 정리되어 있다.
+

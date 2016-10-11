@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DT_Measurement_V3">
+</Property><Property Name="솔루션 파일" Value="\\vrs4.postech.ac.kr\user\onlybell\Calibration\Calibration\DT_Measurement_V3.sln">
+</Property><Property Name="사용자 옵션 파일" Value="\\vrs4.postech.ac.kr\user\onlybell\Calibration\Calibration\DT_Measurement_V3.suo">
+</Property><Property Name="Date" Value="2012년 7월 2일 월요일">
+</Property><Property Name="Time" Value="오후 18:16">
+</Property><Property Name="로그 번호" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="DT_Measurement_V3.sln" Description="백업 파일 만들기 오류: \\vrs4.postech.ac.kr\user\onlybell\Calibration\Calibration\DT_Measurement_V3.sln.old">
+</Event><Event ErrorLevel="2" Project="" Source="DT_Measurement_V3.suo" Description="백업 파일 만들기 오류: \\vrs4.postech.ac.kr\user\onlybell\Calibration\Calibration\DT_Measurement_V3.suo.old">
+</Event><Event ErrorLevel="0" Project="DT_Measurement_V3" Source="DT_Measurement_V3.vcproj" Description="Converting project file '\\vrs4.postech.ac.kr\user\onlybell\Calibration\Calibration\DT_Measurement_V3.vcproj'.">
+</Event><Event ErrorLevel="1" Project="DT_Measurement_V3" Source="DT_Measurement_V3.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="1" Project="DT_Measurement_V3" Source="DT_Measurement_V3.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="DT_Measurement_V3" Source="DT_Measurement_V3.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="DT_Measurement_V3" Source="DT_Measurement_V3.vcproj" Description="MSB8012: $(TargetPath) ('\\vrs4.postech.ac.kr\user\onlybell\Calibration\Calibration\.\Debug\DT_Measurement_V3.exe') does not match the Linker's OutputFile property value '.\Debug/DT_Measurement_V3.exe' ('\\vrs4.postech.ac.kr\user\onlybell\Calibration\Calibration\Debug/DT_Measurement_V3.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="DT_Measurement_V3" Source="DT_Measurement_V3.vcproj" Description="MSB8012: $(TargetPath) ('\\vrs4.postech.ac.kr\user\onlybell\Calibration\Calibration\.\Release\DT_Measurement_V3.exe') does not match the Linker's OutputFile property value '.\Release/DT_Measurement_V3.exe' ('\\vrs4.postech.ac.kr\user\onlybell\Calibration\Calibration\Release/DT_Measurement_V3.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="DT_Measurement_V3" Source="DT_Measurement_V3.vcproj" Description="Done converting to new project file '\\vrs4.postech.ac.kr\user\onlybell\Calibration\Calibration\DT_Measurement_V3.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="DT_Measurement_V3" Source="DT_Measurement_V3.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="DT_Measurement_V3.sln" Description="솔루션을 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="" Source="DT_Measurement_V3.sln" Description="Converted">
+</Event></UpgradeLog>

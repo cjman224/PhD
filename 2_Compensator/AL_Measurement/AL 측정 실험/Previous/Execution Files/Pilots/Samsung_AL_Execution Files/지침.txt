@@ -1,0 +1,14 @@
+Subject별 실행방법
+1. Tmp 폴더를 복사해서 Subject 이름으로 변경
+2. Shaker_Main Experiment 1/0.1/0/025s.exe를 차례로 실행시켜서 실험 하면 됨.
+3. 실행 시 처음에 뜨는 dialog박스에는 아무것도 입력하지 않고 확인 및 OK 만 누르면 됨.
+
+해줄 것.
+각 frequency 별로 AL 초기값이 잘 설정되었는지 확인해줄것.
+
+
+현재 수정할점
+* 프로그램 종료 후 다시 실행하면 DAQ Reserve 문제.
+일단은 작업관리자에서 Shaker로 시작하는 프로세스 종료하고 실행해줄것.
+
+* 각 condition 수행 시각 기록할것

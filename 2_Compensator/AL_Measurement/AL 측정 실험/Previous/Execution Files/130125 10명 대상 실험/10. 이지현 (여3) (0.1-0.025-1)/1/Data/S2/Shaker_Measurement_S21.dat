@@ -1,0 +1,730 @@
+[Measurement Data File for Detection Thresholds Measured with a Shaker]
+[Subject Code]
+S2
+[Subject Name]
+이지현
+[Experiment Number]
+1
+[Tested Frequencies (Hz)]
+20	33	47	63	82	104	131	161	194	229	263	300	
+[Number of Reversals]
+7
+[Step Sizes (dB)]
+4.000000	4.000000	3.000000	1.000000	1.000000	1.000000	1.000000	
+[Measurement Data]
+micrometer	1.124683	Voltage	0.221332
+
+
+1.124683 263.000000 10000.000000 0.100000
+micrometer	1.782502	Voltage	0.371555
+micrometer	1.782502	Voltage	0.371555
+
+
+1.782502 263.000000 10000.000000 0.100000
+micrometer	1.261915	Voltage	0.294749
+
+
+1.261915 263.000000 10000.000000 0.100000
+micrometer	1.415892	Voltage	0.320196
+micrometer	1.415892	Voltage	0.320196
+
+
+1.415892 263.000000 10000.000000 0.100000
+[Measurement Data File for Detection Thresholds Measured with a Shaker]
+[Subject Code]
+S2
+[Subject Name]
+이지현
+[Experiment Number]
+1
+[Tested Frequencies (Hz)]
+20	33	47	63	82	104	131	161	194	229	263	300	
+[Number of Reversals]
+7
+[Step Sizes (dB)]
+4.000000	4.000000	3.000000	1.000000	1.000000	1.000000	1.000000	
+[Measurement Data]
+micrometer	3.374048	Voltage	0.635171
+micrometer	3.374048	Voltage	0.635171
+micrometer	2.128880	Voltage	0.509747
+micrometer	2.128880	Voltage	0.509747
+micrometer	1.343233	Voltage	0.310017
+micrometer	1.343233	Voltage	0.310017
+micrometer	0.847523	Voltage	0.155926
+micrometer	0.847523	Voltage	0.155926
+micrometer	0.534751	Voltage	0.097863
+
+
+0.534751 263.000000 10000.000000 0.100000
+micrometer	0.847523	Voltage	0.155926
+micrometer	0.847523	Voltage	0.155926
+micrometer	1.343233	Voltage	0.310017
+micrometer	1.343233	Voltage	0.310017
+
+
+1.343233 263.000000 10000.000000 0.100000
+micrometer	0.950936	Voltage	0.175134
+micrometer	0.950936	Voltage	0.175134
+micrometer	0.673211	Voltage	0.123549
+
+
+0.673211 263.000000 10000.000000 0.100000
+micrometer	0.755355	Voltage	0.138807
+micrometer	0.755355	Voltage	0.138807
+
+
+0.755355 263.000000 10000.000000 0.100000
+micrometer	0.673211	Voltage	0.123549
+
+
+0.673211 263.000000 10000.000000 0.100000
+micrometer	0.755355	Voltage	0.138807
+micrometer	0.755355	Voltage	0.138807
+
+
+0.755355 263.000000 10000.000000 0.100000
+micrometer	0.673211	Voltage	0.123549
+
+
+0.673211 263.000000 10000.000000 0.100000
+micrometer	253.053596	Voltage	0.489527
+micrometer	253.053596	Voltage	0.489527
+micrometer	159.666025	Voltage	0.312893
+micrometer	159.666025	Voltage	0.312893
+micrometer	100.742451	Voltage	0.196758
+micrometer	100.742451	Voltage	0.196758
+micrometer	63.564190	Voltage	0.128045
+micrometer	63.564190	Voltage	0.128045
+micrometer	40.106292	Voltage	0.082881
+micrometer	40.106292	Voltage	0.082881
+micrometer	25.305360	Voltage	0.052294
+micrometer	25.305360	Voltage	0.052294
+micrometer	15.966603	Voltage	0.032996
+micrometer	15.966603	Voltage	0.032996
+micrometer	10.074245	Voltage	0.020819
+micrometer	10.074245	Voltage	0.020819
+
+
+10.074245 33.000000 10000.000000 0.100000
+micrometer	15.966603	Voltage	0.032996
+micrometer	15.966603	Voltage	0.032996
+
+
+15.966603 33.000000 10000.000000 0.100000
+micrometer	11.303489	Voltage	0.023359
+micrometer	11.303489	Voltage	0.023359
+micrometer	8.002257	Voltage	0.016537
+micrometer	8.002257	Voltage	0.016537
+micrometer	5.665164	Voltage	0.011707
+
+
+5.665164 33.000000 10000.000000 0.100000
+micrometer	6.356419	Voltage	0.013136
+micrometer	7.132019	Voltage	0.014739
+micrometer	7.132019	Voltage	0.014739
+micrometer	8.002257	Voltage	0.016537
+micrometer	8.978680	Voltage	0.018555
+micrometer	8.978680	Voltage	0.018555
+micrometer	10.074245	Voltage	0.020819
+micrometer	10.074245	Voltage	0.020819
+
+
+10.074245 33.000000 10000.000000 0.100000
+micrometer	8.978680	Voltage	0.018555
+
+
+8.978680 33.000000 10000.000000 0.100000
+micrometer	10.074245	Voltage	0.020819
+micrometer	10.074245	Voltage	0.020819
+
+
+10.074245 33.000000 10000.000000 0.100000
+micrometer	8.978680	Voltage	0.018555
+micrometer	8.978680	Voltage	0.018555
+
+
+8.978680 33.000000 10000.000000 0.100000
+micrometer	95.598025	Voltage	0.365894
+micrometer	95.598025	Voltage	0.365894
+micrometer	60.318276	Voltage	0.218562
+micrometer	60.318276	Voltage	0.218562
+micrometer	38.058259	Voltage	0.143697
+micrometer	38.058259	Voltage	0.143697
+micrometer	24.013138	Voltage	0.098103
+micrometer	24.013138	Voltage	0.098103
+micrometer	15.151266	Voltage	0.061899
+micrometer	15.151266	Voltage	0.061899
+micrometer	9.559803	Voltage	0.039055
+micrometer	9.559803	Voltage	0.039055
+micrometer	6.031828	Voltage	0.024642
+micrometer	6.031828	Voltage	0.024642
+micrometer	3.805826	Voltage	0.015548
+micrometer	3.805826	Voltage	0.015548
+micrometer	2.401314	Voltage	0.009810
+micrometer	2.401314	Voltage	0.009810
+
+
+2.401314 47.000000 10000.000000 0.100000
+micrometer	3.805826	Voltage	0.015548
+micrometer	6.031828	Voltage	0.024642
+micrometer	6.031828	Voltage	0.024642
+
+
+6.031828 47.000000 10000.000000 0.100000
+micrometer	4.270207	Voltage	0.017445
+micrometer	4.270207	Voltage	0.017445
+micrometer	3.023075	Voltage	0.012350
+
+
+3.023075 47.000000 10000.000000 0.100000
+micrometer	3.391946	Voltage	0.013857
+micrometer	3.391946	Voltage	0.013857
+
+
+3.391946 47.000000 10000.000000 0.100000
+micrometer	3.023075	Voltage	0.012350
+micrometer	3.023075	Voltage	0.012350
+micrometer	2.694318	Voltage	0.011007
+micrometer	2.694318	Voltage	0.011007
+micrometer	2.401314	Voltage	0.009810
+micrometer	2.401314	Voltage	0.009810
+micrometer	2.140173	Voltage	0.008743
+
+
+2.140173 47.000000 10000.000000 0.100000
+micrometer	2.401314	Voltage	0.009810
+micrometer	2.401314	Voltage	0.009810
+
+
+2.401314 47.000000 10000.000000 0.100000
+micrometer	2.140173	Voltage	0.008743
+micrometer	2.140173	Voltage	0.008743
+
+
+2.140173 47.000000 10000.000000 0.100000
+micrometer	2.249365	Voltage	0.117064
+micrometer	2.249365	Voltage	0.117064
+micrometer	1.419254	Voltage	0.070588
+micrometer	1.419254	Voltage	0.070588
+micrometer	0.895488	Voltage	0.044538
+micrometer	0.895488	Voltage	0.044538
+micrometer	0.565015	Voltage	0.028102
+
+
+0.565015 161.000000 10000.000000 0.100000
+micrometer	0.895488	Voltage	0.044538
+micrometer	0.895488	Voltage	0.044538
+
+
+0.895488 161.000000 10000.000000 0.100000
+micrometer	0.633957	Voltage	0.031531
+micrometer	0.633957	Voltage	0.031531
+micrometer	0.448807	Voltage	0.022322
+micrometer	0.448807	Voltage	0.022322
+micrometer	0.317731	Voltage	0.015803
+
+
+0.317731 161.000000 10000.000000 0.100000
+micrometer	0.356500	Voltage	0.017731
+micrometer	0.356500	Voltage	0.017731
+
+
+0.356500 161.000000 10000.000000 0.100000
+micrometer	0.317731	Voltage	0.015803
+micrometer	0.317731	Voltage	0.015803
+micrometer	0.283178	Voltage	0.014084
+micrometer	0.283178	Voltage	0.014084
+micrometer	0.252383	Voltage	0.012553
+micrometer	0.252383	Voltage	0.012553
+micrometer	0.224937	Voltage	0.011187
+
+
+0.224937 161.000000 10000.000000 0.100000
+micrometer	0.252383	Voltage	0.012553
+micrometer	0.252383	Voltage	0.012553
+
+
+0.252383 161.000000 10000.000000 0.100000
+micrometer	0.224937	Voltage	0.011187
+micrometer	0.224937	Voltage	0.011187
+micrometer	0.200475	Voltage	0.009971
+micrometer	0.200475	Voltage	0.009971
+micrometer	0.178673	Voltage	0.008887
+micrometer	0.178673	Voltage	0.008887
+micrometer	0.159243	Voltage	0.007920
+
+
+0.159243 161.000000 10000.000000 0.100000
+micrometer	16.870240	Voltage	0.223426
+micrometer	16.870240	Voltage	0.223426
+micrometer	10.644402	Voltage	0.141677
+micrometer	10.644402	Voltage	0.141677
+micrometer	6.716163	Voltage	0.086283
+micrometer	6.716163	Voltage	0.086283
+micrometer	4.237613	Voltage	0.054441
+micrometer	4.237613	Voltage	0.054441
+micrometer	2.673753	Voltage	0.034350
+micrometer	2.673753	Voltage	0.034350
+micrometer	1.687024	Voltage	0.021673
+micrometer	1.687024	Voltage	0.021673
+micrometer	1.064440	Voltage	0.013675
+micrometer	1.064440	Voltage	0.013675
+micrometer	0.671616	Voltage	0.008628
+micrometer	0.671616	Voltage	0.008628
+micrometer	0.423761	Voltage	0.005444
+micrometer	0.423761	Voltage	0.005444
+
+
+0.423761 82.000000 10000.000000 0.100000
+micrometer	0.671616	Voltage	0.008628
+micrometer	0.671616	Voltage	0.008628
+
+
+0.671616 82.000000 10000.000000 0.100000
+micrometer	0.475468	Voltage	0.006108
+micrometer	0.475468	Voltage	0.006108
+
+
+0.475468 82.000000 10000.000000 0.100000
+micrometer	0.533484	Voltage	0.006854
+micrometer	0.533484	Voltage	0.006854
+
+
+0.533484 82.000000 10000.000000 0.100000
+micrometer	0.475468	Voltage	0.006108
+micrometer	0.475468	Voltage	0.006108
+micrometer	0.423761	Voltage	0.005444
+micrometer	0.423761	Voltage	0.005444
+
+
+0.423761 82.000000 10000.000000 0.100000
+micrometer	0.475468	Voltage	0.006108
+micrometer	0.475468	Voltage	0.006108
+micrometer	0.533484	Voltage	0.006854
+micrometer	0.533484	Voltage	0.006854
+
+
+0.533484 82.000000 10000.000000 0.100000
+micrometer	0.475468	Voltage	0.006108
+micrometer	0.475468	Voltage	0.006108
+micrometer	0.423761	Voltage	0.005444
+micrometer	0.423761	Voltage	0.005444
+
+
+0.423761 82.000000 10000.000000 0.100000
+micrometer	28.117066	Voltage	0.205329
+micrometer	28.117066	Voltage	0.205329
+micrometer	17.740669	Voltage	0.131657
+micrometer	17.740669	Voltage	0.131657
+micrometer	11.193606	Voltage	0.084025
+micrometer	11.193606	Voltage	0.084025
+micrometer	7.062688	Voltage	0.053016
+micrometer	7.062688	Voltage	0.053016
+micrometer	4.456255	Voltage	0.033451
+micrometer	4.456255	Voltage	0.033451
+micrometer	2.811707	Voltage	0.021106
+micrometer	2.811707	Voltage	0.021106
+micrometer	1.774067	Voltage	0.013317
+
+
+1.774067 63.000000 10000.000000 0.100000
+micrometer	2.811707	Voltage	0.021106
+micrometer	2.811707	Voltage	0.021106
+
+
+2.811707 63.000000 10000.000000 0.100000
+micrometer	1.990536	Voltage	0.014942
+micrometer	1.990536	Voltage	0.014942
+micrometer	1.409191	Voltage	0.010578
+micrometer	1.409191	Voltage	0.010578
+micrometer	0.997631	Voltage	0.007489
+micrometer	0.997631	Voltage	0.007489
+
+
+0.997631 63.000000 10000.000000 0.100000
+micrometer	1.119361	Voltage	0.008403
+micrometer	1.119361	Voltage	0.008403
+micrometer	1.255943	Voltage	0.009428
+micrometer	1.409191	Voltage	0.010578
+micrometer	1.409191	Voltage	0.010578
+
+
+1.409191 63.000000 10000.000000 0.100000
+micrometer	1.255943	Voltage	0.009428
+micrometer	1.255943	Voltage	0.009428
+micrometer	1.119361	Voltage	0.008403
+micrometer	1.119361	Voltage	0.008403
+micrometer	0.997631	Voltage	0.007489
+micrometer	0.997631	Voltage	0.007489
+micrometer	0.889140	Voltage	0.006674
+micrometer	0.889140	Voltage	0.006674
+micrometer	0.792447	Voltage	0.005949
+micrometer	0.792447	Voltage	0.005949
+
+
+0.792447 63.000000 10000.000000 0.100000
+micrometer	0.889140	Voltage	0.006674
+micrometer	0.889140	Voltage	0.006674
+
+
+0.889140 63.000000 10000.000000 0.100000
+micrometer	0.792447	Voltage	0.005949
+
+
+0.792447 63.000000 10000.000000 0.100000
+micrometer	3.374048	Voltage	0.122920
+micrometer	3.374048	Voltage	0.122920
+micrometer	2.128880	Voltage	0.079491
+micrometer	2.128880	Voltage	0.079491
+micrometer	1.343233	Voltage	0.050155
+micrometer	1.343233	Voltage	0.050155
+micrometer	0.847523	Voltage	0.031646
+micrometer	0.847523	Voltage	0.031646
+micrometer	0.534751	Voltage	0.019967
+
+
+0.534751 131.000000 10000.000000 0.100000
+micrometer	0.847523	Voltage	0.031646
+micrometer	0.847523	Voltage	0.031646
+
+
+0.847523 131.000000 10000.000000 0.100000
+micrometer	0.600000	Voltage	0.022404
+micrometer	0.600000	Voltage	0.022404
+micrometer	0.424767	Voltage	0.015861
+micrometer	0.424767	Voltage	0.015861
+micrometer	0.300712	Voltage	0.011228
+micrometer	0.300712	Voltage	0.011228
+micrometer	0.212888	Voltage	0.007949
+micrometer	0.212888	Voltage	0.007949
+
+
+0.212888 131.000000 10000.000000 0.100000
+micrometer	0.238864	Voltage	0.008919
+micrometer	0.238864	Voltage	0.008919
+micrometer	0.268010	Voltage	0.010007
+micrometer	0.268010	Voltage	0.010007
+micrometer	0.300712	Voltage	0.011228
+micrometer	0.300712	Voltage	0.011228
+
+
+0.300712 131.000000 10000.000000 0.100000
+micrometer	0.268010	Voltage	0.010007
+micrometer	0.268010	Voltage	0.010007
+micrometer	0.238864	Voltage	0.008919
+micrometer	0.238864	Voltage	0.008919
+micrometer	0.212888	Voltage	0.007949
+micrometer	0.212888	Voltage	0.007949
+micrometer	0.189737	Voltage	0.007085
+
+
+0.189737 131.000000 10000.000000 0.100000
+micrometer	0.212888	Voltage	0.007949
+micrometer	0.212888	Voltage	0.007949
+
+
+0.212888 131.000000 10000.000000 0.100000
+micrometer	0.189737	Voltage	0.007085
+
+
+0.189737 131.000000 10000.000000 0.100000
+micrometer	5.623413	Voltage	0.130066
+micrometer	5.623413	Voltage	0.130066
+micrometer	3.548134	Voltage	0.082015
+micrometer	3.548134	Voltage	0.082015
+micrometer	2.238721	Voltage	0.051748
+micrometer	2.238721	Voltage	0.051748
+micrometer	1.412538	Voltage	0.032651
+micrometer	1.412538	Voltage	0.032651
+micrometer	0.891251	Voltage	0.020601
+micrometer	0.891251	Voltage	0.020601
+micrometer	0.562341	Voltage	0.012999
+micrometer	0.562341	Voltage	0.012999
+micrometer	0.354813	Voltage	0.008202
+micrometer	0.354813	Voltage	0.008202
+
+
+0.354813 104.000000 10000.000000 0.100000
+micrometer	0.562341	Voltage	0.012999
+micrometer	0.562341	Voltage	0.012999
+
+
+0.562341 104.000000 10000.000000 0.100000
+micrometer	0.398107	Voltage	0.009202
+micrometer	0.398107	Voltage	0.009202
+micrometer	0.281838	Voltage	0.006515
+micrometer	0.281838	Voltage	0.006515
+micrometer	0.199526	Voltage	0.004612
+micrometer	0.199526	Voltage	0.004612
+micrometer	0.141254	Voltage	0.003265
+
+
+0.141254 104.000000 10000.000000 0.100000
+micrometer	0.158489	Voltage	0.003663
+micrometer	0.158489	Voltage	0.003663
+micrometer	0.177828	Voltage	0.004110
+micrometer	0.177828	Voltage	0.004110
+
+
+0.177828 104.000000 10000.000000 0.100000
+micrometer	0.158489	Voltage	0.003663
+
+
+0.158489 104.000000 10000.000000 0.100000
+micrometer	0.177828	Voltage	0.004110
+micrometer	0.199526	Voltage	0.004612
+micrometer	0.223872	Voltage	0.005175
+micrometer	0.223872	Voltage	0.005175
+micrometer	0.251189	Voltage	0.005806
+micrometer	0.251189	Voltage	0.005806
+micrometer	0.281838	Voltage	0.006515
+micrometer	0.316228	Voltage	0.007310
+micrometer	0.316228	Voltage	0.007310
+
+
+0.316228 104.000000 10000.000000 0.100000
+micrometer	0.281838	Voltage	0.006515
+micrometer	0.281838	Voltage	0.006515
+micrometer	0.251189	Voltage	0.005806
+micrometer	0.251189	Voltage	0.005806
+micrometer	0.223872	Voltage	0.005175
+
+
+0.223872 104.000000 10000.000000 0.100000
+micrometer	1.124683	Voltage	0.173110
+micrometer	1.124683	Voltage	0.173110
+micrometer	0.709627	Voltage	0.110676
+micrometer	0.709627	Voltage	0.110676
+micrometer	0.447744	Voltage	0.070108
+micrometer	0.447744	Voltage	0.070108
+micrometer	0.282508	Voltage	0.044235
+micrometer	0.282508	Voltage	0.044235
+micrometer	0.178250	Voltage	0.027910
+micrometer	0.178250	Voltage	0.027910
+micrometer	0.112468	Voltage	0.017610
+micrometer	0.112468	Voltage	0.017610
+micrometer	0.070963	Voltage	0.011111
+micrometer	0.070963	Voltage	0.011111
+micrometer	0.044774	Voltage	0.007011
+
+
+0.044774 229.000000 10000.000000 0.100000
+micrometer	0.070963	Voltage	0.011111
+micrometer	0.070963	Voltage	0.011111
+
+
+0.070963 229.000000 10000.000000 0.100000
+micrometer	0.050238	Voltage	0.007866
+
+
+0.050238 229.000000 10000.000000 0.100000
+micrometer	0.056368	Voltage	0.008826
+micrometer	0.063246	Voltage	0.009903
+micrometer	0.063246	Voltage	0.009903
+
+
+0.063246 229.000000 10000.000000 0.100000
+micrometer	0.056368	Voltage	0.008826
+micrometer	0.056368	Voltage	0.008826
+micrometer	0.050238	Voltage	0.007866
+
+
+0.050238 229.000000 10000.000000 0.100000
+micrometer	0.056368	Voltage	0.008826
+micrometer	0.056368	Voltage	0.008826
+
+
+0.056368 229.000000 10000.000000 0.100000
+micrometer	0.050238	Voltage	0.007866
+micrometer	0.050238	Voltage	0.007866
+micrometer	0.044774	Voltage	0.007011
+micrometer	0.044774	Voltage	0.007011
+
+
+0.044774 229.000000 10000.000000 0.100000
+micrometer	393.638928	Voltage	0.362372
+micrometer	393.638928	Voltage	0.362372
+micrometer	248.369372	Voltage	0.226926
+micrometer	248.369372	Voltage	0.226926
+micrometer	156.710480	Voltage	0.143169
+micrometer	156.710480	Voltage	0.143169
+micrometer	98.877628	Voltage	0.088389
+micrometer	98.877628	Voltage	0.088389
+micrometer	62.387566	Voltage	0.055770
+micrometer	62.387566	Voltage	0.055770
+micrometer	39.363893	Voltage	0.035188
+micrometer	39.363893	Voltage	0.035188
+micrometer	24.836937	Voltage	0.022202
+micrometer	24.836937	Voltage	0.022202
+micrometer	15.671048	Voltage	0.014009
+micrometer	15.671048	Voltage	0.014009
+micrometer	9.887763	Voltage	0.008839
+
+
+9.887763 20.000000 10000.000000 0.100000
+micrometer	15.671048	Voltage	0.014009
+micrometer	24.836937	Voltage	0.022202
+micrometer	24.836937	Voltage	0.022202
+micrometer	39.363893	Voltage	0.035188
+micrometer	62.387566	Voltage	0.055770
+micrometer	62.387566	Voltage	0.055770
+
+
+62.387566 20.000000 10000.000000 0.100000
+micrometer	44.167014	Voltage	0.039482
+micrometer	44.167014	Voltage	0.039482
+micrometer	31.267851	Voltage	0.027951
+micrometer	31.267851	Voltage	0.027951
+micrometer	22.135944	Voltage	0.019788
+micrometer	22.135944	Voltage	0.019788
+
+
+22.135944 20.000000 10000.000000 0.100000
+micrometer	24.836937	Voltage	0.022202
+micrometer	24.836937	Voltage	0.022202
+
+
+24.836937 20.000000 10000.000000 0.100000
+micrometer	22.135944	Voltage	0.019788
+
+
+22.135944 20.000000 10000.000000 0.100000
+micrometer	24.836937	Voltage	0.022202
+micrometer	24.836937	Voltage	0.022202
+micrometer	27.867502	Voltage	0.024911
+micrometer	31.267851	Voltage	0.027951
+micrometer	31.267851	Voltage	0.027951
+
+
+31.267851 20.000000 10000.000000 0.100000
+micrometer	27.867502	Voltage	0.024911
+micrometer	27.867502	Voltage	0.024911
+micrometer	24.836937	Voltage	0.022202
+
+
+24.836937 20.000000 10000.000000 0.100000
+micrometer	1.687024	Voltage	0.437344
+micrometer	1.687024	Voltage	0.437344
+micrometer	1.064440	Voltage	0.253420
+micrometer	1.064440	Voltage	0.253420
+micrometer	0.671616	Voltage	0.147839
+micrometer	0.671616	Voltage	0.147839
+micrometer	0.423761	Voltage	0.096985
+micrometer	0.423761	Voltage	0.096985
+micrometer	0.267375	Voltage	0.061194
+micrometer	0.267375	Voltage	0.061194
+micrometer	0.168702	Voltage	0.038611
+
+
+0.168702 300.000000 10000.000000 0.100000
+micrometer	0.267375	Voltage	0.061194
+micrometer	0.267375	Voltage	0.061194
+micrometer	0.423761	Voltage	0.096985
+micrometer	0.423761	Voltage	0.096985
+
+
+0.423761 300.000000 10000.000000 0.100000
+micrometer	0.300000	Voltage	0.068660
+micrometer	0.300000	Voltage	0.068660
+micrometer	0.212384	Voltage	0.048608
+
+
+0.212384 300.000000 10000.000000 0.100000
+micrometer	0.238298	Voltage	0.054539
+micrometer	0.238298	Voltage	0.054539
+
+
+0.238298 300.000000 10000.000000 0.100000
+micrometer	0.212384	Voltage	0.048608
+micrometer	0.212384	Voltage	0.048608
+micrometer	0.189287	Voltage	0.043322
+
+
+0.189287 300.000000 10000.000000 0.100000
+micrometer	0.212384	Voltage	0.048608
+micrometer	0.212384	Voltage	0.048608
+
+
+0.212384 300.000000 10000.000000 0.100000
+micrometer	0.189287	Voltage	0.043322
+micrometer	0.189287	Voltage	0.043322
+micrometer	0.168702	Voltage	0.038611
+micrometer	0.168702	Voltage	0.038611
+micrometer	0.150356	Voltage	0.034412
+micrometer	0.150356	Voltage	0.034412
+micrometer	0.134005	Voltage	0.030669
+micrometer	0.134005	Voltage	0.030669
+micrometer	0.119432	Voltage	0.027334
+micrometer	0.119432	Voltage	0.027334
+micrometer	0.106444	Voltage	0.024362
+micrometer	0.106444	Voltage	0.024362
+micrometer	0.094868	Voltage	0.021712
+micrometer	0.094868	Voltage	0.021712
+
+
+0.094868 300.000000 10000.000000 0.100000
+micrometer	1.124683	Voltage	0.160400
+micrometer	1.124683	Voltage	0.160400
+micrometer	0.709627	Voltage	0.078870
+micrometer	0.709627	Voltage	0.078870
+micrometer	0.447744	Voltage	0.049764
+micrometer	0.447744	Voltage	0.049764
+micrometer	0.282508	Voltage	0.031399
+micrometer	0.282508	Voltage	0.031399
+micrometer	0.178250	Voltage	0.019811
+micrometer	0.178250	Voltage	0.019811
+micrometer	0.112468	Voltage	0.012500
+micrometer	0.112468	Voltage	0.012500
+micrometer	0.070963	Voltage	0.007887
+micrometer	0.070963	Voltage	0.007887
+micrometer	0.044774	Voltage	0.004976
+micrometer	0.044774	Voltage	0.004976
+micrometer	0.028251	Voltage	0.003140
+
+
+0.028251 194.000000 10000.000000 0.100000
+micrometer	0.044774	Voltage	0.004976
+micrometer	0.070963	Voltage	0.007887
+micrometer	0.112468	Voltage	0.012500
+micrometer	0.112468	Voltage	0.012500
+
+
+0.112468 194.000000 10000.000000 0.100000
+micrometer	0.079621	Voltage	0.008849
+micrometer	0.079621	Voltage	0.008849
+micrometer	0.056368	Voltage	0.006265
+
+
+0.056368 194.000000 10000.000000 0.100000
+micrometer	0.063246	Voltage	0.007029
+micrometer	0.063246	Voltage	0.007029
+micrometer	0.070963	Voltage	0.007887
+micrometer	0.079621	Voltage	0.008849
+micrometer	0.079621	Voltage	0.008849
+micrometer	0.089337	Voltage	0.009929
+micrometer	0.100237	Voltage	0.011141
+micrometer	0.112468	Voltage	0.012500
+micrometer	0.126191	Voltage	0.014025
+micrometer	0.141589	Voltage	0.015737
+micrometer	0.141589	Voltage	0.015737
+
+
+0.141589 194.000000 10000.000000 0.100000
+micrometer	0.126191	Voltage	0.014025
+micrometer	0.126191	Voltage	0.014025
+micrometer	0.112468	Voltage	0.012500
+micrometer	0.112468	Voltage	0.012500
+micrometer	0.100237	Voltage	0.011141
+
+
+0.100237 194.000000 10000.000000 0.100000
+micrometer	0.112468	Voltage	0.012500
+micrometer	0.112468	Voltage	0.012500
+
+
+0.112468 194.000000 10000.000000 0.100000
+micrometer	0.100237	Voltage	0.011141
+micrometer	0.100237	Voltage	0.011141
+
+
+0.100237 194.000000 10000.000000 0.100000

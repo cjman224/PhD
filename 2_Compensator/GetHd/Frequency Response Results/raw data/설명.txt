@@ -1,0 +1,1 @@
+input과 가속도계로 측정한 measured output 정보

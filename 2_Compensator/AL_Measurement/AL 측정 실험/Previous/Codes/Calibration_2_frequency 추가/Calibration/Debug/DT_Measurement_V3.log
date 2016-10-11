@@ -1,0 +1,64 @@
+﻿빌드 시작: 2013-01-15 오후 5:27:15
+     1>2 노드의 "C:\Samsung\Calibration\DT_Measurement_V3.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 ".\Debug\DT_Measurement_V3.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\Program Files\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt DT_Measurement_V3.cpp
+         DT_Measurement_V3.cpp
+     1>c:\samsung\calibration\atidaq\ftrt.h(33): warning C4005: 'TRUE' : 매크로 재정의
+                 c:\samsung\calibration\nidaqmx.h(78) : 'TRUE'의 이전 정의를 참조하십시오.
+     1>c:\samsung\calibration\atidaq\ftrt.h(34): warning C4005: 'FALSE' : 매크로 재정의
+                 c:\samsung\calibration\nidaqmx.h(81) : 'FALSE'의 이전 정의를 참조하십시오.
+     1>c:\samsung\calibration\dt_measurement_v3.cpp(71): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>c:\samsung\calibration\dt_measurement_v3.cpp(95): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 'fscanf' 선언을 참조하십시오.
+     1>c:\samsung\calibration\dt_measurement_v3.cpp(235): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 'scanf' 선언을 참조하십시오.
+     1>c:\samsung\calibration\dt_measurement_v3.cpp(239): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 'scanf' 선언을 참조하십시오.
+     1>c:\samsung\calibration\dt_measurement_v3.cpp(243): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 'scanf' 선언을 참조하십시오.
+     1>c:\samsung\calibration\dt_measurement_v3.cpp(247): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 'scanf' 선언을 참조하십시오.
+     1>c:\samsung\calibration\dt_measurement_v3.cpp(310): warning C4244: '=' : 'float64'에서 'int32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\samsung\calibration\dt_measurement_v3.cpp(316): warning C4244: '인수' : 'float64'에서 'uInt64'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\samsung\calibration\dt_measurement_v3.cpp(319): warning C4244: '인수' : 'float64'에서 'uInt64'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\samsung\calibration\dt_measurement_v3.cpp(394): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>c:\samsung\calibration\dt_measurement_v3.cpp(400): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>c:\samsung\calibration\dt_measurement_v3.cpp(390): warning C4101: 'pfSampleReading' :참조되지 않은 지역 변수입니다.
+     1>c:\samsung\calibration\dt_measurement_v3.cpp(390): warning C4101: 'pfFTFileOutput' :참조되지 않은 지역 변수입니다.
+     1>c:\samsung\calibration\dt_measurement_v3.cpp(390): warning C4101: 'pfFT' :참조되지 않은 지역 변수입니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/DT_Measurement_V3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Program Files\National Instruments\NI-DAQ\DAQmx ANSI C Dev\lib\msvc" nidaqmx.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\DT_Measurement_V3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/DT_Measurement_V3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\DT_Measurement_V3.lib" /MACHINE:X86 .\Debug\DT_Measurement_V3.exe.embed.manifest.res
+         .\Debug/dom.obj
+         .\Debug/DT_Measurement_V3.obj
+         .\Debug/expatls.obj
+         .\Debug/ftconfig.obj
+         .\Debug/ftrt.obj
+         .\Debug/node.obj
+         .\Debug/stack.obj
+         .\Debug/xmlparse.obj
+         .\Debug/xmlrole.obj
+         .\Debug/xmltok.obj /MACHINE:I386 
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\DT_Measurement_V3.exe.embed.manifest" /manifest .\Debug\DT_Measurement_V3.exe.intermediate.manifest
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         DT_Measurement_V3.vcxproj -> C:\Samsung\Calibration\.\Debug\DT_Measurement_V3.exe
+       BscMake:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\DT_Measurement_V3.bsc" .\Debug\dom.sbr .\Debug\DT_Measurement_V3.sbr .\Debug\expatls.sbr .\Debug\ftconfig.sbr .\Debug\ftrt.sbr .\Debug\node.sbr .\Debug\stack.sbr .\Debug\xmlparse.sbr .\Debug\xmlrole.sbr .\Debug\xmltok.sbr
+       FinalizeBuildStatus:
+         ".\Debug\DT_Measurement_V3.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         ".\Debug\DT_Measurement_V3.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Samsung\Calibration\DT_Measurement_V3.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.59

@@ -1,0 +1,29 @@
+﻿  DT_Measurement_V3.cpp
+d:\works\research\4d_effects_rendering\3_audio_events\2. compensator\al_measurement\al 측정 실험\codes\calibration\atidaq\ftrt.h(33): warning C4005: 'TRUE': 매크로 재정의
+  d:\works\research\4d_effects_rendering\3_audio_events\2. compensator\al_measurement\al 측정 실험\codes\calibration\NIDAQmx.h(78): note: 'TRUE'의 이전 정의를 참조하십시오.
+d:\works\research\4d_effects_rendering\3_audio_events\2. compensator\al_measurement\al 측정 실험\codes\calibration\atidaq\ftrt.h(34): warning C4005: 'FALSE': 매크로 재정의
+  d:\works\research\4d_effects_rendering\3_audio_events\2. compensator\al_measurement\al 측정 실험\codes\calibration\NIDAQmx.h(81): note: 'FALSE'의 이전 정의를 참조하십시오.
+DT_Measurement_V3.cpp(71): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+DT_Measurement_V3.cpp(95): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1193): note: 'fscanf' 선언을 참조하십시오.
+DT_Measurement_V3.cpp(235): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+DT_Measurement_V3.cpp(239): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+DT_Measurement_V3.cpp(243): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+DT_Measurement_V3.cpp(247): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+DT_Measurement_V3.cpp(309): warning C4244: '=': 'float64'에서 'int32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+DT_Measurement_V3.cpp(315): warning C4244: '인수': 'float64'에서 'uInt64'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+DT_Measurement_V3.cpp(318): warning C4244: '인수': 'float64'에서 'uInt64'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+DT_Measurement_V3.cpp(393): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
+DT_Measurement_V3.cpp(399): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+DT_Measurement_V3.cpp(389): warning C4101: 'pfFTFileOutput' :참조되지 않은 지역 변수입니다.
+DT_Measurement_V3.cpp(389): warning C4101: 'pfSampleReading' :참조되지 않은 지역 변수입니다.
+DT_Measurement_V3.cpp(389): warning C4101: 'pfFT' :참조되지 않은 지역 변수입니다.
+  DT_Measurement_V3.vcxproj -> D:\Works\Research\4D_Effects_Rendering\3_Audio_Events\2. Compensator\AL_Measurement\AL 측정 실험\Codes\Calibration\.\Release\DT_Measurement_V3.exe
+  DT_Measurement_V3.vcxproj -> .\Release/DT_Measurement_V3.pdb (Full PDB)

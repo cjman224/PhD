@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Shaker Main Experiment - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\choism\LOCALS~1\Temp\RSP10F.tmp" with contents
+[
+/nologo /MDd /W3 /GX /Zi /Od /I "C:\Program Files\National Instruments\NI-DAQ\DAQmx ANSI C Dev\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Shaker Main Experiment.pch" /YX"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\choism\My Documents\My Working Files\shaker\Programs\main experiment\shaker main experiment\Shaker Main ExperimentDoc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\choism\LOCALS~1\Temp\RSP10F.tmp" 
+Creating temporary file "C:\DOCUME~1\choism\LOCALS~1\Temp\RSP110.tmp" with contents
+[
+nidaqmx.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Shaker Main Experiment.pdb" /debug /machine:I386 /out:"Debug/Shaker Main Experiment.exe" /pdbtype:sept /libpath:"C:\Program Files\National Instruments\NI-DAQ\DAQmx ANSI C Dev\lib\msvc" 
+".\Debug\dom.obj"
+".\Debug\expatls.obj"
+".\Debug\ftconfig.obj"
+".\Debug\ftrt.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MDialogStartExperiment.obj"
+".\Debug\node.obj"
+".\Debug\Shaker Main Experiment.obj"
+".\Debug\Shaker Main ExperimentDoc.obj"
+".\Debug\Shaker Main ExperimentView.obj"
+".\Debug\stack.obj"
+".\Debug\StdAfx.obj"
+".\Debug\xmlparse.obj"
+".\Debug\xmlrole.obj"
+".\Debug\xmltok.obj"
+".\Debug\Shaker Main Experiment.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\choism\LOCALS~1\Temp\RSP110.tmp"
+<h3>Output Window</h3>
+Compiling...
+Shaker Main ExperimentDoc.cpp
+C:\Documents and Settings\choism\My Documents\My Working Files\shaker\Programs\main experiment\shaker main experiment\Shaker Main ExperimentDoc.cpp(952) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\choism\My Documents\My Working Files\shaker\Programs\main experiment\shaker main experiment\Shaker Main ExperimentDoc.cpp(1397) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+Linking...
+Creating temporary file "C:\DOCUME~1\choism\LOCALS~1\Temp\RSP111.tmp" with contents
+[
+/nologo /o"Debug/Shaker Main Experiment.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\dom.sbr"
+".\Debug\expatls.sbr"
+".\Debug\ftconfig.sbr"
+".\Debug\ftrt.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\MDialogStartExperiment.sbr"
+".\Debug\node.sbr"
+".\Debug\Shaker Main Experiment.sbr"
+".\Debug\Shaker Main ExperimentDoc.sbr"
+".\Debug\Shaker Main ExperimentView.sbr"
+".\Debug\stack.sbr"
+".\Debug\xmlparse.sbr"
+".\Debug\xmlrole.sbr"
+".\Debug\xmltok.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\choism\LOCALS~1\Temp\RSP111.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Shaker Main Experiment.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

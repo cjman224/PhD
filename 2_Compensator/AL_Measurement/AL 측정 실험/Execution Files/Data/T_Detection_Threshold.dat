@@ -1,0 +1,263 @@
+[Threshold Data File for Detection Thresholds Measured with a Shaker]
+[Subject Code]
+T
+[Subject Name]
+10
+[Experiment Number]
+1
+[Tested Frequencies (Hz)]
+10	20	35	50	70	95	120	150	200	280	400	550	
+[Number of Reversals]
+7
+[Step Sizes (dB)]
+4.000000	4.000000	3.000000	1.000000	1.000000	1.000000	1.000000	
+
+
+>> Condition 1
+
+
+>> Frequency = 35
+1	9.559803	RIGHT	NO
+2	9.559803	RIGHT	NO
+3	6.031828	RIGHT	NO
+4	6.031828	RIGHT	NO
+[Threshold Data File for Detection Thresholds Measured with a Shaker]
+[Subject Code]
+T
+[Subject Name]
+10
+[Experiment Number]
+1
+[Tested Frequencies (Hz)]
+10	20	35	50	70	95	120	150	200	280	400	550	
+[Number of Reversals]
+7
+[Step Sizes (dB)]
+4.000000	4.000000	3.000000	1.000000	1.000000	1.000000	1.000000	
+
+
+>> Condition 1
+
+
+>> Frequency = 35
+[Threshold Data File for Detection Thresholds Measured with a Shaker]
+[Subject Code]
+T
+[Subject Name]
+10
+[Experiment Number]
+1
+[Tested Frequencies (Hz)]
+10	20	35	50	70	95	120	150	200	280	400	550	
+[Number of Reversals]
+7
+[Step Sizes (dB)]
+4.000000	4.000000	3.000000	1.000000	1.000000	1.000000	1.000000	
+
+
+>> Condition 1
+
+
+>> Frequency = 35
+1	9.559803	RIGHT	NO
+2	9.559803	WRONG	YES
+[Threshold Data File for Detection Thresholds Measured with a Shaker]
+[Subject Code]
+T
+[Subject Name]
+10
+[Experiment Number]
+1
+[Tested Frequencies (Hz)]
+10	20	35	50	70	95	120	150	200	280	400	550	
+[Number of Reversals]
+7
+[Step Sizes (dB)]
+4.000000	4.000000	3.000000	1.000000	1.000000	1.000000	1.000000	
+
+
+>> Condition 1
+
+
+>> Frequency = 35
+1	9.559803	WRONG	YES
+[Threshold Data File for Detection Thresholds Measured with a Shaker]
+[Subject Code]
+T
+[Subject Name]
+10
+[Experiment Number]
+1
+[Tested Frequencies (Hz)]
+10	20	35	50	70	95	120	150	200	280	400	550	
+[Number of Reversals]
+7
+[Step Sizes (dB)]
+4.000000	4.000000	3.000000	1.000000	1.000000	1.000000	1.000000	
+
+
+>> Condition 1
+
+
+>> Frequency = 35
+1	9.559803	RIGHT	NO
+2	9.559803	RIGHT	NO
+[Threshold Data File for Detection Thresholds Measured with a Shaker]
+[Subject Code]
+T
+[Subject Name]
+10
+[Experiment Number]
+1
+[Tested Frequencies (Hz)]
+10	20	35	50	70	95	120	150	200	280	400	550	
+[Number of Reversals]
+7
+[Step Sizes (dB)]
+4.000000	4.000000	3.000000	1.000000	1.000000	1.000000	1.000000	
+
+
+>> Condition 1
+
+
+>> Frequency = 35
+1	9.559803	RIGHT	NO
+[Threshold Data File for Detection Thresholds Measured with a Shaker]
+[Subject Code]
+T
+[Subject Name]
+10
+[Experiment Number]
+1
+[Tested Frequencies (Hz)]
+10	20	35	50	70	95	120	150	200	280	400	550	
+[Number of Reversals]
+7
+[Step Sizes (dB)]
+4.000000	4.000000	3.000000	1.000000	1.000000	1.000000	1.000000	
+
+
+>> Condition 1
+
+
+>> Frequency = 35
+1	9.559803	RIGHT	NO
+2	9.559803	RIGHT	NO
+3	6.031828	WRONG	YES
+4	9.559803	RIGHT	NO
+5	9.559803	WRONG	NO
+6	15.151266	WRONG	NO
+[Threshold Data File for Detection Thresholds Measured with a Shaker]
+[Subject Code]
+T
+[Subject Name]
+10
+[Experiment Number]
+1
+[Tested Frequencies (Hz)]
+10	20	35	50	70	95	120	150	200	280	400	550	
+[Number of Reversals]
+7
+[Step Sizes (dB)]
+4.000000	4.000000	3.000000	1.000000	1.000000	1.000000	1.000000	
+
+
+>> Condition 1
+
+
+>> Frequency = 35
+1	9.559803	WRONG	YES
+2	15.151266	RIGHT	NO
+3	15.151266	WRONG	NO
+4	24.013139	RIGHT	NO
+5	24.013139	RIGHT	YES
+6	17.000000	WRONG	YES
+[Threshold Data File for Detection Thresholds Measured with a Shaker]
+[Subject Code]
+T
+[Subject Name]
+10
+[Experiment Number]
+1
+[Tested Frequencies (Hz)]
+10	20	35	50	70	95	120	150	200	280	400	550	
+[Number of Reversals]
+7
+[Step Sizes (dB)]
+4.000000	4.000000	3.000000	1.000000	1.000000	1.000000	1.000000	
+
+
+>> Condition 1
+
+
+>> Frequency = 35
+1	9.559803	RIGHT	NO
+2	9.559803	RIGHT	NO
+3	6.031828	RIGHT	NO
+4	6.031828	WRONG	YES
+5	9.559803	WRONG	NO
+6	15.151266	WRONG	NO
+7	24.013139	WRONG	NO
+[Threshold Data File for Detection Thresholds Measured with a Shaker]
+[Subject Code]
+T
+[Subject Name]
+10
+[Experiment Number]
+1
+[Tested Frequencies (Hz)]
+10	20	35	50	70	95	120	150	200	280	400	550	
+[Number of Reversals]
+7
+[Step Sizes (dB)]
+4.000000	4.000000	3.000000	1.000000	1.000000	1.000000	1.000000	
+
+
+>> Condition 1
+
+
+>> Frequency = 35
+[Threshold Data File for Detection Thresholds Measured with a Shaker]
+[Subject Code]
+T
+[Subject Name]
+10
+[Experiment Number]
+1
+[Tested Frequencies (Hz)]
+10	20	35	50	70	95	120	150	200	280	400	550	
+[Number of Reversals]
+7
+[Step Sizes (dB)]
+4.000000	4.000000	3.000000	1.000000	1.000000	1.000000	1.000000	
+
+
+>> Condition 1
+
+
+>> Frequency = 35
+1	9.559803	RIGHT	NO
+[Threshold Data File for Detection Thresholds Measured with a Shaker]
+[Subject Code]
+T
+[Subject Name]
+10
+[Experiment Number]
+1
+[Tested Frequencies (Hz)]
+10	20	35	50	70	95	120	150	200	280	400	550	
+[Number of Reversals]
+7
+[Step Sizes (dB)]
+4.000000	4.000000	3.000000	1.000000	1.000000	1.000000	1.000000	
+
+
+>> Condition 1
+
+
+>> Frequency = 35
+1	9.559803	WRONG	YES
+2	15.151266	RIGHT	NO
+3	15.151266	WRONG	NO
+4	24.013139	WRONG	NO
+5	38.058260	WRONG	NO

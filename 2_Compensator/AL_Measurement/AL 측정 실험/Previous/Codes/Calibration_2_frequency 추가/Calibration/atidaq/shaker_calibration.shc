@@ -1,0 +1,16 @@
+[Calibration Data File for Shaker Experiment]
+Generated at Sun Sep 24 05:19:37 2006
+
+[Number of Frequencies]
+7
+
+
+[Calibration Data]
+Frequency (Hz)	Slope	Offset
+10.000000	0.078053	-0.001276	
+20.000000	0.094686	-0.001324	
+40.000000	0.141317	0.000800	
+80.000000	0.018046	0.000010	
+160.000000	0.003747	-0.000000	
+320.000000	0.000849	0.000000	
+500.000000	0.000329	-0.000000	
